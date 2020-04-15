@@ -2,10 +2,30 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("1.Joker ");
-        System.out.println("2. Shutter Island");
-        System.out.println("3. Spider-Man 2");
-        System.out.println("4. Avengers:Endgame");
-        System.out.println("It");
+
+       for (int i = 0; i <= 10; i = i + 1) {
+           System.out.println("The count is" + " " + i);
+           System.out.println("Let's keep counting.");
+       }
+       for (int i = 10; i <= 20; i = i + 1) {
+           System.out.println("The Count is" + " " + i);
+           System.out.println("Let's keep counting.");
+       }
+       for (int i = 10; i <= 100; i = i + 1) {
+           System.out.println("The count is" + " "+ i);
+           System.out.println("Let's keep counting.");
+       }
+       for (int i = 1000; i <= 256000; i = i + 1) {
+           System.out.println("The count is" + " " + i);
+           System.out.println("Let's keep counting.");
+       }
+       for (int i = 11; i <= 12; i = i + 1) {
+           System.out.println("The count is" + " " + i);
+           System.out.println("Let's keep counting.");
+       }
+       for (int i = 10; i >= 0; i = i - 1) {
+           System.out.println("The count is" + " " + i);
+           System.out.println("Let's keep counting.");
+       }
     }
 }
